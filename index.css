@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    background-color: bisque;
+    color: black ;
+}
+
+#seca, #secb, #secd, footer
+{
+    margin-top: 60px;
+}
+
+#seca div 
+{
+text-align: center;
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#secb
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+
+#secc button
+{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+#secd
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#secd div
+{
+    width: 25%;
+}
+
+
+
+#foot1 div li
+{
+    list-style: none;
+}
+
+#foot1 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#foot2
+{
+    margin-top: 20px;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    transition: .8s;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+
+@media(max-width:500px)
+{
+    * 
+    {
+        background-color: aquamarine;
+    }    
+
+    #foot1, #secd, #secb
+    {
+        display: block;
+        text-align: center;
+    }
+    #foot1 div
+    {
+        width: 100%;
+    }
+
+    #secd div
+    {
+        width: 100%;
+    }
+    #secb div
+    {
+        width: 100%;
+    }
+
+
+
+
+}
